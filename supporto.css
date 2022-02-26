@@ -1,0 +1,93 @@
+
+
+.bottoni {
+text-align: center;
+margin-top: 30px;
+}
+
+
+.lbm {
+display:inline-block;
+
+text-decoration: none;
+color: white;
+background-image: url(./img/sfondofaq.png);
+background-size: cover;
+padding-top: 100px;
+padding-bottom: 100px;
+width: 550px;
+
+margin: 50px 50px;
+font-family: 'Sora', sans-serif;
+font-size: 40px;
+border-radius: 25px;
+transition: all 0.3s ease-in-out;
+}
+
+.lbd {
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    background-image: url(./img/sfondofaq.png);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 550px;
+    
+    margin: 50px 50px;
+    font-family: 'Sora', sans-serif;
+    font-size: 40px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.dpf {
+    display:block;
+    
+    text-decoration: none;
+    color: white;
+    background-image: url(./img/sfondofaq.png);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 550px;
+    
+    margin: 50px auto;
+    font-family: 'Sora', sans-serif;
+    font-size: 40px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.lbm:hover  {
+    transform: scale(1.05);
+    
+}
+
+.lbd:hover {
+    transform: scale(1.05);
+    
+}
+
+.dpf:hover {
+    transform: scale(1.05);
+    
+}
+
+
+
+.endbar {
+    position: fixed;
+    bottom: 0px;
+}
+
+.credits {
+    margin-top: 5px;
+}
+
+@media screen and (max-height:820px){
+    .endbar {
+        position: static;
+    }
+    
+}
